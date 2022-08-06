@@ -1,0 +1,12 @@
+{
+  "name": "ex-twi",
+  "description": "description",
+  "manifest_version": 3,
+  "version": "0.0.1",
+  "content_scripts": [
+    {
+      "matches": ["*://*.twitter.com/*"],
+      "js": ["main.js"]
+    }
+  ]
+}
